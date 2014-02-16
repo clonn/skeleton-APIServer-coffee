@@ -86,6 +86,7 @@ module.exports = function(grunt) {
     // Default tasks.
     grunt.registerTask('default', ['coffee', 'mochaTest']);
     grunt.registerTask('build', ['clean', 'coffee', 'jshint', 'mochaTest']);
+    grunt.registerTask('compile', ['coffee:compile']);
     grunt.registerTask('test', ['mochaTest']);
     // grunt.registerTask('doc', ['apidoc']);
 
