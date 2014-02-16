@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "description": "for RESTful API server skeleton in CoffeeScript",
   "main": "node app.js",
-  "start": "node out/app.js",
   "directories": {
     "doc": "docs",
     "test": "test"
+  },
+  "scripts": {
+    "compile": "grunt complie",
+    "watch": "grunt watch",
+    "start": "node out/app.js"
   },
   "dependencies": {
     "express": "~3.3.8",
